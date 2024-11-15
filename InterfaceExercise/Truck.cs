@@ -12,9 +12,9 @@ namespace InterfaceExercise
         public bool HasTrailer { get; set; }
         public bool HasTireChains { get; set; }
 
-        public string DisplayDetails()
+        public void DisplayDetails()
         {
-            return ($"This Car is a {Brand} {Model} and has {NumberOfWheels} wheels and {NumberOfDoors} doors. This car was made by {Name} and is located in {OfficeLocation} ");
+            Console.WriteLine( $"This Vehicle is a {Brand} {Model} and has {NumberOfWheels} wheels and {NumberOfDoors} doors. This car was made by {Name} and is located in {OfficeLocation} ");
         }
     }
 }

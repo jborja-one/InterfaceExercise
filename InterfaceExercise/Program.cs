@@ -43,6 +43,7 @@ namespace InterfaceExercise
                 NumberOfDoors = 4,
                 Brand = "Ford",
                 Model = "Focus",
+                Name = "The Ford Group",
                 OfficeLocation = "Dearborn, MI",
                 IsItARaceCar = false,
                 TypeOfTransmission = "Automatic"
@@ -53,7 +54,7 @@ namespace InterfaceExercise
                 NumberOfWheels = 18,
                 NumberOfDoors = 3,
                 Brand = "Volvo",
-                Model = "Volvo VHD",
+                Model = "VHD",
                 Name = "The Volvo Group",
                 OfficeLocation = "Gothenburg, Sweden",
                 HasTrailer = true,

@@ -12,11 +12,14 @@ namespace InterfaceExercise
 		public bool IsItARaceCar { get; set; }
 		public string TypeOfTransmission { get; set; }
 
-		public string DisplayDetails()
+		public void DisplayDetails()
 		{
-			return ($"This Car is a {Brand} {Model} and has {NumberOfWheels} wheels and {NumberOfDoors} doors and its transmission is {TypeOfTransmission}. This car was made by {Name} and is located in {OfficeLocation} ");
+			Console.WriteLine ($"This Vehicle is a {Brand} {Model} and has {NumberOfWheels} wheels and {NumberOfDoors} doors and its transmission is {TypeOfTransmission}. This car was made by {Name} and is located in {OfficeLocation} ");
+
 		}
 	}
 }
+
+
 
 
